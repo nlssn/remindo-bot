@@ -1,0 +1,16 @@
+[
+   {
+      "id": "01",
+      "title": "Föreläsning om något ballt",
+      "date": "2020-09-02 22:45",
+      "desc": "Detta är en ball föreläsning, wow!",
+      "url": "http://zoom.com/room/dudette"
+   },
+   {
+      "id": "02",
+      "title": "Föreläsning om annat",
+      "date": "2020-09-25 13:37",
+      "desc": "Detta är en föreläsning om något annat...",
+      "url": "http://zoom.com/room/dude"
+   }
+]
