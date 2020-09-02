@@ -2,7 +2,6 @@
 
 const { Client, MessageEmbed } = require('discord.js');
 const client = new Client();
-const timeplan = require('timeplan');
 const jsonfile = require('jsonfile');
 require('dotenv').config();
 
