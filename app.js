@@ -3,11 +3,13 @@
 const { Client, MessageEmbed } = require('discord.js');
 const client = new Client();
 const jsonfile = require('jsonfile');
+const { DateTime } = require('luxon');
 require('dotenv').config();
 
 const color = 0x1aefb3;
 let lectures, nextLecture;
 let nextAlert = [];
+
 
 client.on('ready', () => {
    console.log(`Logged in as ${client.user.tag}!`);
@@ -47,7 +49,7 @@ client.on('message', msg => {
 
 /* Sort the lectures according to date */
 function sortLectures(arr) {
-   return arr.sort((a,b) => new Date(a.date) - new Date(b.date));
+   return arr.sort((a,b) => DateTime.fromFormat(a.date, 'yyyy-MM-dd hh:mm') - DateTime.fromFormat(b.date, 'yyyy-MM-dd hh:mm'));
 }
 
 client.login(process.env.DISCORD_TOKEN);
