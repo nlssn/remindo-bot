@@ -2,15 +2,22 @@
    {
       "id": "01",
       "title": "Föreläsning om något ballt",
-      "date": "2020-09-02 22:45",
+      "date": "2020-09-03 13:30",
       "desc": "Detta är en ball föreläsning, wow!",
       "url": "http://zoom.com/room/dudette"
    },
    {
       "id": "02",
       "title": "Föreläsning om annat",
-      "date": "2020-09-25 13:37",
+      "date": "2020-09-03 11:00",
       "desc": "Detta är en föreläsning om något annat...",
+      "url": "http://zoom.com/room/dude"
+   },
+   {
+      "id": "03",
+      "title": "Föreläsning om bananer",
+      "date": "2020-09-03 10:00",
+      "desc": "Detta är en föreläsning om bananassss...",
       "url": "http://zoom.com/room/dude"
    }
 ]
